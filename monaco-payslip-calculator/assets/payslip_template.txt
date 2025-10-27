@@ -1,0 +1,54 @@
+============================================================
+             BULLETIN DE SALAIRE - MONACO
+============================================================
+Employeur: {employer_name}
+Adresse: {employer_address}
+
+Employé: {employee_name}
+Poste: {employee_position}
+Période: {period}
+Type d'employé: {employee_type}
+
+------------------------------------------------------------
+SALAIRE ET COTISATIONS SALARIALES
+------------------------------------------------------------
+Salaire brut mensuel:           {gross_salary:>12.2f} €
+
+Cotisations salariales:
+  - Maladie-Maternité            {health_employee:>12.2f} €
+  - Vieillesse                   {pension_employee:>12.2f} €
+  - Chômage                      {unemployment_employee:>12.2f} €
+  Total cotisations salariales   {employee_total:>12.2f} €
+  Taux effectif                  {employee_rate:>11.2f} %
+
+SALAIRE NET À PAYER:             {net_salary:>12.2f} €
+
+------------------------------------------------------------
+COTISATIONS PATRONALES
+------------------------------------------------------------
+  - Maladie-Maternité            {health_employer:>12.2f} €
+  - Vieillesse                   {pension_employer:>12.2f} €
+  - Chômage                      {unemployment_employer:>12.2f} €
+  - Accidents du Travail         {work_accidents:>12.2f} €
+  - Allocations Familiales       {family_allowances:>12.2f} €
+  - Formation Professionnelle    {training:>12.2f} €
+  Total cotisations patronales   {employer_total:>12.2f} €
+  Taux effectif                  {employer_rate:>11.2f} %
+
+COÛT TOTAL EMPLOYEUR:            {total_cost:>12.2f} €
+
+------------------------------------------------------------
+RÉSUMÉ
+------------------------------------------------------------
+Salaire brut:                    {gross_salary:>12.2f} €
+Cotisations totales:             {total_contributions:>12.2f} €
+  - Part salariale:              {employee_total:>12.2f} €
+  - Part patronale:              {employer_total:>12.2f} €
+Salaire net:                     {net_salary:>12.2f} €
+Coût total employeur:            {total_cost:>12.2f} €
+============================================================
+
+IMPORTANT: Bulletin établi selon les taux en vigueur.
+Vérifier sur www.caisses-sociales.mc
+
+Date d'émission: {issue_date}

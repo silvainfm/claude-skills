@@ -1,0 +1,48 @@
+============================================================
+BULLETIN DE SALAIRE - MONACO
+============================================================
+Type d'employé: STANDARD
+Date de calcul: 2025-10-27
+
+------------------------------------------------------------
+SALAIRE ET COTISATIONS SALARIALES
+------------------------------------------------------------
+Salaire brut mensuel:                3500.00 €
+
+Cotisations salariales:
+  - Maladie                              126.00 €
+  - Vieillesse                           148.75 €
+  - Chomage                               17.50 €
+  Total cotisations salariales         292.25 €
+  Taux effectif                         8.35 %
+
+SALAIRE NET À PAYER:                  3207.75 €
+
+------------------------------------------------------------
+COTISATIONS PATRONALES
+------------------------------------------------------------
+  - Maladie                              451.50 €
+  - Vieillesse                           446.25 €
+  - Chomage                               52.50 €
+  - Accidents Travail                     70.00 €
+  - Allocations Familiales               245.00 €
+  - Formation Prof                        17.50 €
+  Total cotisations patronales        1282.75 €
+  Taux effectif                        36.65 %
+
+COÛT TOTAL EMPLOYEUR:                 4782.75 €
+
+------------------------------------------------------------
+RÉSUMÉ
+------------------------------------------------------------
+Salaire brut:                        3500.00 €
+Cotisations totales:                 1575.00 €
+  - Part salariale:                   292.25 €
+  - Part patronale:                  1282.75 €
+Salaire net:                         3207.75 €
+Coût total employeur:                4782.75 €
+============================================================
+
+IMPORTANT: Les taux utilisés sont des valeurs de référence.
+Vérifiez avec les taux officiels sur www.caisses-sociales.mc
+

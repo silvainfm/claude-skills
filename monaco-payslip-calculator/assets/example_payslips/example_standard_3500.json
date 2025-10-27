@@ -1,0 +1,27 @@
+{
+  "gross_salary": 3500.0,
+  "employee_type": "standard",
+  "employee_contributions": {
+    "maladie": 126.0,
+    "vieillesse": 148.75,
+    "chomage": 17.5,
+    "total": 292.25
+  },
+  "employee_total": 292.25,
+  "employee_rate_percent": 8.35,
+  "net_salary": 3207.75,
+  "employer_contributions": {
+    "maladie": 451.5,
+    "vieillesse": 446.25,
+    "chomage": 52.5,
+    "accidents_travail": 70.0,
+    "allocations_familiales": 245.0,
+    "formation_prof": 17.5,
+    "total": 1282.75
+  },
+  "employer_total": 1282.75,
+  "employer_rate_percent": 36.65,
+  "total_employer_cost": 4782.75,
+  "total_contributions": 1575.0,
+  "calculation_date": "2025-10-27T22:28:37.397506"
+}
