@@ -1,0 +1,25 @@
+{
+  "gross_salary": 3500.0,
+  "employee_type": "household",
+  "rates_effective_date": "2025-10-01",
+  "employee_contributions": {
+    "car_retirement": 239.75,
+    "cmrc_supplementary_pension": 140.28,
+    "total": 380.03
+  },
+  "employee_total": 380.03,
+  "employee_rate_percent": 10.86,
+  "net_salary": 3119.97,
+  "employer_contributions": {
+    "ccss_social_security": 154.77,
+    "car_retirement": 291.55,
+    "cmrc_supplementary_pension": 210.42,
+    "total": 656.74
+  },
+  "employer_total": 656.74,
+  "employer_rate_percent": 18.76,
+  "total_employer_cost": 4156.74,
+  "total_contributions": 1036.77,
+  "calculation_date": "2025-10-27T22:41:53.012192",
+  "ccss_base_used": 1155.0
+}
