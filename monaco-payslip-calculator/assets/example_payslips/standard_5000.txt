@@ -1,0 +1,45 @@
+======================================================================
+BULLETIN DE SALAIRE - PRINCIPAUTÉ DE MONACO
+======================================================================
+Type d'employé: STANDARD
+Date de calcul: 2025-10-27
+Taux en vigueur au: 2025-10-01
+
+----------------------------------------------------------------------
+SALAIRE ET COTISATIONS SALARIALES
+----------------------------------------------------------------------
+Salaire brut mensuel:                      5000.00 €
+
+Cotisations salariales:
+  - C.A.R. - Retraite (6,85%)                       342.50 €
+  - CMRC - Retraite complémentaire                  259.13 €
+  Total cotisations salariales                    601.63 €
+  Taux effectif                                   12.03 %
+
+SALAIRE NET À PAYER:                             4398.37 €
+
+----------------------------------------------------------------------
+COTISATIONS PATRONALES
+----------------------------------------------------------------------
+  - CCSS - Sécurité sociale (13,40%) *              670.00 €
+  - C.A.R. - Retraite (8,33%)                       416.50 €
+  - CMRC - Retraite complémentaire                  388.70 €
+  Total cotisations patronales                   1475.20 €
+  Taux effectif                                   29.50 %
+
+COÛT TOTAL EMPLOYEUR:                            6475.20 €
+
+----------------------------------------------------------------------
+RÉSUMÉ
+----------------------------------------------------------------------
+Salaire brut:                              5000.00 €
+Cotisations totales:                       2076.83 €
+  - Part salariale:                         601.63 €
+  - Part patronale:                        1475.20 €
+Salaire net:                               4398.37 €
+Coût total employeur:                      6475.20 €
+======================================================================
+
+Taux officiels en vigueur au 1er octobre 2025
+Source: Caisses Sociales de Monaco - www.caisses-sociales.mc
+

@@ -1,0 +1,48 @@
+======================================================================
+BULLETIN DE SALAIRE - PRINCIPAUTÉ DE MONACO
+======================================================================
+Type d'employé: HOUSEHOLD
+Date de calcul: 2025-10-27
+Taux en vigueur au: 2025-10-01
+
+----------------------------------------------------------------------
+SALAIRE ET COTISATIONS SALARIALES
+----------------------------------------------------------------------
+Salaire brut mensuel:                      2500.00 €
+
+Cotisations salariales:
+  - C.A.R. - Retraite (6,85%)                       171.25 €
+  - CMRC - Retraite complémentaire                  100.20 €
+  Total cotisations salariales                    271.45 €
+  Taux effectif                                   10.86 %
+
+SALAIRE NET À PAYER:                             2228.55 €
+
+----------------------------------------------------------------------
+COTISATIONS PATRONALES
+----------------------------------------------------------------------
+  - CCSS - Sécurité sociale (13,40%) *              110.55 €
+  - C.A.R. - Retraite (8,33%)                       208.25 €
+  - CMRC - Retraite complémentaire                  150.30 €
+  Total cotisations patronales                    469.10 €
+  Taux effectif                                   18.76 %
+
+COÛT TOTAL EMPLOYEUR:                            2969.10 €
+
+----------------------------------------------------------------------
+RÉSUMÉ
+----------------------------------------------------------------------
+Salaire brut:                              2500.00 €
+Cotisations totales:                        740.55 €
+  - Part salariale:                         271.45 €
+  - Part patronale:                         469.10 €
+Salaire net:                               2228.55 €
+Coût total employeur:                      2969.10 €
+======================================================================
+
+* CCSS: Pour les employés de maison (1-2 employés, <254h/mois),
+  la base de cotisation = 33% du salaire brut = 825.00 €
+
+Taux officiels en vigueur au 1er octobre 2025
+Source: Caisses Sociales de Monaco - www.caisses-sociales.mc
+
