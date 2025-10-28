@@ -20,18 +20,6 @@ This skill enables Claude to calculate complete Monaco payslips including:
 - **Command-line Tool**: Standalone Python script for direct calculations
 - **Comprehensive Documentation**: Detailed reference for contribution rates and rules
 
-## Important Notice
-
-⚠️ **The contribution rates included are TEMPLATE VALUES and must be updated with current official rates before use.**
-
-To make this skill production-ready:
-1. Visit https://www.caisses-sociales.mc/ (or the Monaco employer portal)
-2. Obtain the current official contribution rates
-3. Update the rates in:
-   - `scripts/payslip_calculator.py` (lines 34-73)
-   - `references/contribution_rates.md` (complete all [TO BE COMPLETED] sections)
-4. Follow the verification checklist in `references/contribution_rates.md`
-
 ## Installation
 
 1. Upload this skill to Claude Code or your Claude environment
