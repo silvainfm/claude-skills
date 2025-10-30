@@ -54,7 +54,6 @@ Polars can read data from various formats:
 
 ```python
 import polars as pl
-
 # Read CSV
 df = pl.read_csv('data.csv')
 
@@ -76,7 +75,6 @@ lazy_df = pl.scan_parquet('data/*.parquet')
 
 ```python
 import polars as pl
-
 df = pl.read_csv('data.csv')
 
 # Select columns
@@ -106,7 +104,6 @@ result = df.filter(pl.col('name').str.contains('John'))
 
 ```python
 import polars as pl
-
 df = pl.read_csv('sales.csv')
 
 # Add new columns
@@ -133,7 +130,6 @@ result = df.rename({'old_name': 'new_name'})
 
 ```python
 import polars as pl
-
 df = pl.read_csv('sales.csv')
 
 # Group by and aggregate
@@ -213,7 +209,6 @@ result = df1.join(df2, on=['col1', 'col2'], how='inner')
 
 ```python
 import polars as pl
-
 df = pl.read_csv('sales.csv')
 
 # Calculate running total
@@ -244,7 +239,6 @@ Polars' lazy API optimizes queries before execution:
 
 ```python
 import polars as pl
-
 # Start with lazy scan (doesn't load data yet)
 lazy_df = (
     pl.scan_csv('large_data.csv')
@@ -342,9 +336,7 @@ print(df['status'].n_unique())
 Use Polars for data loading and DuckDB for SQL analytics:
 
 ```python
-import polars as pl
-import duckdb
-
+import polars as pl, duckdb
 # Load data with Polars
 df = pl.read_parquet('data/*.parquet')
 
@@ -371,7 +363,6 @@ final = result.with_columns([
 
 ```python
 import polars as pl
-
 df = pl.read_csv('data.csv')
 
 # Write to CSV
@@ -393,7 +384,6 @@ Polars uses a powerful expression syntax:
 
 ```python
 import polars as pl
-
 result = df.select([
     # String operations
     pl.col('name').str.to_lowercase().str.strip().alias('clean_name'),
@@ -464,9 +454,7 @@ df = df.with_columns([
 For the best of both worlds, combine Polars and DuckDB:
 
 ```python
-import polars as pl
-import duckdb
-
+import polars as pl, duckdb
 # Polars: Fast data loading and transformation
 df = (
     pl.scan_parquet('data/*.parquet')
@@ -491,7 +479,6 @@ See the `duckdb` skill for more SQL capabilities and the references/api_referenc
 
 ```python
 import polars as pl
-
 try:
     df = pl.read_csv('data.csv')
 except FileNotFoundError:
