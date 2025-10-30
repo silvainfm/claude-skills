@@ -70,9 +70,7 @@ st.write("Welcome to my interactive dashboard!")
 ### 1. Displaying Text and Data
 
 ```python
-import streamlit as st
-import pandas as pd
-
+import streamlit as st, pandas as pd
 # Text elements
 st.title("Main Title")
 st.header("Section Header")
@@ -109,7 +107,6 @@ st.metric(
 
 ```python
 import streamlit as st
-
 # Text input
 name = st.text_input("Enter your name")
 email = st.text_input("Email", type="default")
@@ -157,11 +154,8 @@ st.download_button(
 
 ```python
 import streamlit as st
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
+import pandas as pd, numpy as np, matplotlib.pyplot as plt
 import plotly.express as px
-
 # Sample data
 df = pd.DataFrame({
     'x': range(10),
@@ -197,7 +191,6 @@ st.plotly_chart(fig, use_container_width=True)
 
 ```python
 import streamlit as st
-
 # Columns
 col1, col2, col3 = st.columns(3)
 with col1:
@@ -237,9 +230,7 @@ st.sidebar.slider("Sidebar slider", 0, 100)
 ### 5. Status and Progress
 
 ```python
-import streamlit as st
-import time
-
+import streamlit as st, time
 # Success, info, warning, error messages
 st.success("Success! Everything worked.")
 st.info("This is an informational message.")
@@ -267,9 +258,7 @@ st.balloons()
 ### 6. Caching for Performance
 
 ```python
-import streamlit as st
-import pandas as pd
-import time
+import streamlit as st, pandas as pd, time
 
 # Cache data loading (persists across reruns)
 @st.cache_data
@@ -320,9 +309,7 @@ if name:
 ### Pattern 1: Data Dashboard
 
 ```python
-import streamlit as st
-import pandas as pd
-import plotly.express as px
+import streamlit as st, pandas as pd, plotly.express as px
 
 st.set_page_config(page_title="Sales Dashboard", layout="wide")
 
@@ -370,59 +357,10 @@ with st.expander("View Raw Data"):
     st.dataframe(df)
 ```
 
-### Pattern 2: ML Model Demo
+### Pattern 2: Data Explorer
 
 ```python
-import streamlit as st
-import pandas as pd
-from sklearn.ensemble import RandomForestClassifier
-
-st.title("🤖 ML Model Demo")
-
-# Sidebar for input
-st.sidebar.header("Input Features")
-feature1 = st.sidebar.slider("Feature 1", 0.0, 10.0, 5.0)
-feature2 = st.sidebar.slider("Feature 2", 0.0, 10.0, 5.0)
-feature3 = st.sidebar.selectbox("Feature 3", ["A", "B", "C"])
-
-# Load and cache model
-@st.cache_resource
-def load_model():
-    # Train or load your model
-    model = RandomForestClassifier()
-    # model.fit(X_train, y_train)
-    return model
-
-model = load_model()
-
-# Make prediction
-if st.sidebar.button("Predict"):
-    # Prepare input
-    input_data = pd.DataFrame({
-        'feature1': [feature1],
-        'feature2': [feature2],
-        'feature3': [feature3]
-    })
-
-    # Predict
-    prediction = model.predict(input_data)[0]
-    probability = model.predict_proba(input_data)[0]
-
-    # Display results
-    st.success(f"Prediction: {prediction}")
-    st.write("Probabilities:")
-    st.bar_chart(pd.DataFrame({
-        'Class': ['A', 'B', 'C'],
-        'Probability': probability
-    }).set_index('Class'))
-```
-
-### Pattern 3: Data Explorer
-
-```python
-import streamlit as st
-import pandas as pd
-import plotly.express as px
+import streamlit as st, pandas as pd, plotly.express as px
 
 st.title("📊 Data Explorer")
 
@@ -471,10 +409,9 @@ if uploaded_file:
         st.plotly_chart(fig, use_container_width=True)
 ```
 
-### Pattern 4: Multi-Page App
+### Pattern 3: Multi-Page App
 
 Create a multi-page app with file structure:
-
 ```
 app/
 ├── main.py
@@ -488,7 +425,6 @@ Main page (`main.py`):
 
 ```python
 import streamlit as st
-
 st.set_page_config(page_title="Multi-Page App", page_icon="🏠")
 
 st.title("Welcome to My App")
@@ -505,7 +441,6 @@ Pages automatically appear in the sidebar. Each page is a separate Python file.
 
 ```python
 import streamlit as st
-
 # Forms prevent rerun on every widget change
 with st.form("my_form"):
     st.write("Fill out the form")
@@ -521,23 +456,6 @@ with st.form("my_form"):
         st.write(f"Name: {name}")
         st.write(f"Age: {age}")
         st.write(f"Color: {favorite_color}")
-```
-
-## Deployment
-
-Deploy Streamlit apps to the cloud:
-
-```bash
-# Streamlit Community Cloud (free)
-# 1. Push code to GitHub
-# 2. Go to share.streamlit.io
-# 3. Connect repository and deploy
-
-# Other options:
-# - Heroku
-# - AWS
-# - Google Cloud
-# - Docker container
 ```
 
 ## Best Practices
